@@ -2,7 +2,10 @@ package Test_Execution;
 
 import org.openqa.selenium.WebDriver;
 import java.io.IOException;
+
+import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -34,5 +37,12 @@ public class Add_assessment extends Admin_CreateAssessment
 	{
 		d.quit();
 	}
-
+	@AfterMethod
+	public void BugScreen(ITestResult result) throws Exception
+	{
+		if(ITestResult.FAILURE==result.getStatus())
+		{
+			Screen_Shot(d, result.getName());
+		}
+	}
 }
