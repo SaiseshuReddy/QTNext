@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="8" passed="4" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-05T10:25:43 IST" name="Suite" finished-at="2023-10-05T10:28:01 IST" duration-ms="137864">
+  <suite started-at="2023-10-09T15:40:19 IST" name="Suite" finished-at="2023-10-09T15:41:57 IST" duration-ms="97870">
     <groups>
     </groups>
-    <test started-at="2023-10-05T10:25:43 IST" name="Test" finished-at="2023-10-05T10:28:01 IST" duration-ms="137864">
+    <test started-at="2023-10-09T15:40:19 IST" name="Test" finished-at="2023-10-09T15:41:57 IST" duration-ms="97870">
       <class name="Test_Execution.Add_Course">
-        <test-method is-config="true" signature="l()[pri:0, instance:Test_Execution.Add_Course@2f4205be]" started-at="2023-10-05T10:25:43 IST" name="l" finished-at="2023-10-05T10:25:57 IST" duration-ms="13904" status="PASS">
+        <test-method is-config="true" signature="l()[pri:0, instance:Test_Execution.Add_Course@2f4205be]" started-at="2023-10-09T15:40:19 IST" name="l" finished-at="2023-10-09T15:40:28 IST" duration-ms="8842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- l -->
-        <test-method signature="createCourse()[pri:1, instance:Test_Execution.Add_Course@2f4205be]" started-at="2023-10-05T10:25:57 IST" name="createCourse" finished-at="2023-10-05T10:26:00 IST" duration-ms="2816" status="PASS">
+        <test-method signature="createCourse()[pri:1, instance:Test_Execution.Add_Course@2f4205be]" started-at="2023-10-09T15:40:28 IST" name="createCourse" finished-at="2023-10-09T15:40:29 IST" duration-ms="1632" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createCourse -->
-        <test-method is-config="true" signature="BugScreen(org.testng.ITestResult)[pri:0, instance:Test_Execution.Add_Course@2f4205be]" started-at="2023-10-05T10:26:00 IST" name="BugScreen" finished-at="2023-10-05T10:26:00 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="BugScreen(org.testng.ITestResult)[pri:0, instance:Test_Execution.Add_Course@2f4205be]" started-at="2023-10-09T15:40:29 IST" name="BugScreen" finished-at="2023-10-09T15:40:29 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,29 +26,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BugScreen -->
-        <test-method signature="addCourse()[pri:2, instance:Test_Execution.Add_Course@2f4205be]" started-at="2023-10-05T10:26:00 IST" name="addCourse" finished-at="2023-10-05T10:26:17 IST" duration-ms="17666" status="FAIL">
+        <test-method signature="addCourse()[pri:2, instance:Test_Execution.Add_Course@2f4205be]" started-at="2023-10-09T15:40:29 IST" name="addCourse" finished-at="2023-10-09T15:40:43 IST" duration-ms="13729" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class="text-danger"]"}
-  (Session info: chrome=117.0.5938.132)
+  (Session info: chrome=117.0.5938.149)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e635b4f2060172a7811ecddd26dd3664, findElement {using=xpath, value=//a[@class="text-danger"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\seshu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64926}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64926/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e635b4f2060172a7811ecddd26dd3664]]>
+Command: [b7b065e7b2b834bb7a099da464345c9f, findElement {using=xpath, value=//a[@class="text-danger"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\seshu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54680/devtoo..., se:cdpVersion: 117.0.5938.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b7b065e7b2b834bb7a099da464345c9f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class="text-danger"]"}
-  (Session info: chrome=117.0.5938.132)
+  (Session info: chrome=117.0.5938.149)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e635b4f2060172a7811ecddd26dd3664, findElement {using=xpath, value=//a[@class="text-danger"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\seshu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64926}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64926/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e635b4f2060172a7811ecddd26dd3664
+Command: [b7b065e7b2b834bb7a099da464345c9f, findElement {using=xpath, value=//a[@class="text-danger"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\seshu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54680/devtoo..., se:cdpVersion: 117.0.5938.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b7b065e7b2b834bb7a099da464345c9f
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -98,7 +98,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCourse -->
-        <test-method is-config="true" signature="BugScreen(org.testng.ITestResult)[pri:0, instance:Test_Execution.Add_Course@2f4205be]" started-at="2023-10-05T10:26:17 IST" name="BugScreen" finished-at="2023-10-05T10:26:18 IST" duration-ms="335" status="PASS">
+        <test-method is-config="true" signature="BugScreen(org.testng.ITestResult)[pri:0, instance:Test_Execution.Add_Course@2f4205be]" started-at="2023-10-09T15:40:43 IST" name="BugScreen" finished-at="2023-10-09T15:40:43 IST" duration-ms="239" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -109,54 +109,43 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BugScreen -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:Test_Execution.Add_Course@2f4205be]" started-at="2023-10-05T10:26:18 IST" name="quit" finished-at="2023-10-05T10:26:19 IST" duration-ms="919" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:Test_Execution.Add_Course@2f4205be]" started-at="2023-10-09T15:40:43 IST" name="quit" finished-at="2023-10-09T15:40:44 IST" duration-ms="386" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- Test_Execution.Add_Course -->
       <class name="Test_Execution.Add_Lesson">
-        <test-method is-config="true" signature="l()[pri:0, instance:Test_Execution.Add_Lesson@20b12f8a]" started-at="2023-10-05T10:26:49 IST" name="l" finished-at="2023-10-05T10:27:00 IST" duration-ms="10371" status="PASS">
+        <test-method is-config="true" signature="l()[pri:0, instance:Test_Execution.Add_Lesson@20b12f8a]" started-at="2023-10-09T15:41:07 IST" name="l" finished-at="2023-10-09T15:41:15 IST" duration-ms="7693" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- l -->
-        <test-method signature="createChapter()[pri:1, instance:Test_Execution.Add_Lesson@20b12f8a]" started-at="2023-10-05T10:27:00 IST" name="createChapter" finished-at="2023-10-05T10:27:03 IST" duration-ms="3317" status="PASS">
+        <test-method signature="createChapter()[pri:1, instance:Test_Execution.Add_Lesson@20b12f8a]" started-at="2023-10-09T15:41:15 IST" name="createChapter" finished-at="2023-10-09T15:41:18 IST" duration-ms="2991" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createChapter -->
-        <test-method is-config="true" signature="BugScreen(org.testng.ITestResult)[pri:0, instance:Test_Execution.Add_Lesson@20b12f8a]" started-at="2023-10-05T10:27:03 IST" name="BugScreen" finished-at="2023-10-05T10:27:03 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=createChapter status=SUCCESS method=Add_Lesson.createChapter()[pri:1, instance:Test_Execution.Add_Lesson@20b12f8a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BugScreen -->
-        <test-method signature="addLesson()[pri:2, instance:Test_Execution.Add_Lesson@20b12f8a]" started-at="2023-10-05T10:27:03 IST" name="addLesson" finished-at="2023-10-05T10:27:22 IST" duration-ms="18690" status="FAIL">
+        <test-method signature="addLesson()[pri:2, instance:Test_Execution.Add_Lesson@20b12f8a]" started-at="2023-10-09T15:41:18 IST" name="addLesson" finished-at="2023-10-09T15:41:31 IST" duration-ms="13151" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//b[@class="text-danger"]"}
-  (Session info: chrome=117.0.5938.132)
+  (Session info: chrome=117.0.5938.149)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3efa22b77b65e81b87b84a61c6662548, findElement {using=xpath, value=//b[@class="text-danger"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\seshu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65264}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65264/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3efa22b77b65e81b87b84a61c6662548]]>
+Command: [426560f3cff793a4c4083455a5b8b372, findElement {using=xpath, value=//b[@class="text-danger"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\seshu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54912}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54912/devtoo..., se:cdpVersion: 117.0.5938.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 426560f3cff793a4c4083455a5b8b372]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[@class="text-danger"]"}
-  (Session info: chrome=117.0.5938.132)
+  (Session info: chrome=117.0.5938.149)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3efa22b77b65e81b87b84a61c6662548, findElement {using=xpath, value=//b[@class="text-danger"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\seshu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65264}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65264/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3efa22b77b65e81b87b84a61c6662548
+Command: [426560f3cff793a4c4083455a5b8b372, findElement {using=xpath, value=//b[@class="text-danger"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\seshu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54912}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54912/devtoo..., se:cdpVersion: 117.0.5938.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 426560f3cff793a4c4083455a5b8b372
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -206,7 +195,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addLesson -->
-        <test-method is-config="true" signature="BugScreen(org.testng.ITestResult)[pri:0, instance:Test_Execution.Add_Lesson@20b12f8a]" started-at="2023-10-05T10:27:22 IST" name="BugScreen" finished-at="2023-10-05T10:27:22 IST" duration-ms="345" status="PASS">
+        <test-method is-config="true" signature="BugScreen(org.testng.ITestResult)[pri:0, instance:Test_Execution.Add_Lesson@20b12f8a]" started-at="2023-10-09T15:41:18 IST" name="BugScreen" finished-at="2023-10-09T15:41:18 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createChapter status=SUCCESS method=Add_Lesson.createChapter()[pri:1, instance:Test_Execution.Add_Lesson@20b12f8a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BugScreen -->
+        <test-method is-config="true" signature="BugScreen(org.testng.ITestResult)[pri:0, instance:Test_Execution.Add_Lesson@20b12f8a]" started-at="2023-10-09T15:41:31 IST" name="BugScreen" finished-at="2023-10-09T15:41:31 IST" duration-ms="150" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -217,21 +217,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BugScreen -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:Test_Execution.Add_Lesson@20b12f8a]" started-at="2023-10-05T10:27:22 IST" name="quit" finished-at="2023-10-05T10:27:23 IST" duration-ms="733" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:Test_Execution.Add_Lesson@20b12f8a]" started-at="2023-10-09T15:41:31 IST" name="quit" finished-at="2023-10-09T15:41:32 IST" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- Test_Execution.Add_Lesson -->
       <class name="Test_Execution.Add_Topic">
-        <test-method is-config="true" signature="l()[pri:0, instance:Test_Execution.Add_Topic@e84a8e1]" started-at="2023-10-05T10:27:23 IST" name="l" finished-at="2023-10-05T10:27:33 IST" duration-ms="10139" status="PASS">
+        <test-method is-config="true" signature="l()[pri:0, instance:Test_Execution.Add_Topic@e84a8e1]" started-at="2023-10-09T15:41:32 IST" name="l" finished-at="2023-10-09T15:41:40 IST" duration-ms="8345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- l -->
-        <test-method signature="createChapter()[pri:1, instance:Test_Execution.Add_Topic@e84a8e1]" started-at="2023-10-05T10:27:33 IST" name="createChapter" finished-at="2023-10-05T10:27:37 IST" duration-ms="3704" status="PASS">
+        <test-method signature="createChapter()[pri:1, instance:Test_Execution.Add_Topic@e84a8e1]" started-at="2023-10-09T15:41:40 IST" name="createChapter" finished-at="2023-10-09T15:41:42 IST" duration-ms="2053" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createChapter -->
-        <test-method is-config="true" signature="BugScreen(org.testng.ITestResult)[pri:0, instance:Test_Execution.Add_Topic@e84a8e1]" started-at="2023-10-05T10:27:37 IST" name="BugScreen" finished-at="2023-10-05T10:27:37 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BugScreen(org.testng.ITestResult)[pri:0, instance:Test_Execution.Add_Topic@e84a8e1]" started-at="2023-10-09T15:41:42 IST" name="BugScreen" finished-at="2023-10-09T15:41:42 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -242,29 +242,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BugScreen -->
-        <test-method signature="addTopic()[pri:2, instance:Test_Execution.Add_Topic@e84a8e1]" started-at="2023-10-05T10:27:37 IST" name="addTopic" finished-at="2023-10-05T10:27:59 IST" duration-ms="22657" status="FAIL">
+        <test-method signature="addTopic()[pri:2, instance:Test_Execution.Add_Topic@e84a8e1]" started-at="2023-10-09T15:41:42 IST" name="addTopic" finished-at="2023-10-09T15:41:56 IST" duration-ms="14214" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//b[@class="text-danger"]"}
-  (Session info: chrome=117.0.5938.132)
+  (Session info: chrome=117.0.5938.149)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [835ce32e2e458073d9fcda47bf7edee2, findElement {using=xpath, value=//b[@class="text-danger"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\seshu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65425}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65425/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 835ce32e2e458073d9fcda47bf7edee2]]>
+Command: [62b71fe30a70438ba5190c1e162ebcb3, findElement {using=xpath, value=//b[@class="text-danger"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\seshu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55025}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55025/devtoo..., se:cdpVersion: 117.0.5938.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b71fe30a70438ba5190c1e162ebcb3]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[@class="text-danger"]"}
-  (Session info: chrome=117.0.5938.132)
+  (Session info: chrome=117.0.5938.149)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [835ce32e2e458073d9fcda47bf7edee2, findElement {using=xpath, value=//b[@class="text-danger"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\seshu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65425}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65425/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 835ce32e2e458073d9fcda47bf7edee2
+Command: [62b71fe30a70438ba5190c1e162ebcb3, findElement {using=xpath, value=//b[@class="text-danger"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\seshu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55025}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55025/devtoo..., se:cdpVersion: 117.0.5938.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b71fe30a70438ba5190c1e162ebcb3
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -314,7 +314,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addTopic -->
-        <test-method is-config="true" signature="BugScreen(org.testng.ITestResult)[pri:0, instance:Test_Execution.Add_Topic@e84a8e1]" started-at="2023-10-05T10:27:59 IST" name="BugScreen" finished-at="2023-10-05T10:28:00 IST" duration-ms="630" status="PASS">
+        <test-method is-config="true" signature="BugScreen(org.testng.ITestResult)[pri:0, instance:Test_Execution.Add_Topic@e84a8e1]" started-at="2023-10-09T15:41:56 IST" name="BugScreen" finished-at="2023-10-09T15:41:56 IST" duration-ms="156" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -325,21 +325,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BugScreen -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:Test_Execution.Add_Topic@e84a8e1]" started-at="2023-10-05T10:28:00 IST" name="quit" finished-at="2023-10-05T10:28:01 IST" duration-ms="845" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:Test_Execution.Add_Topic@e84a8e1]" started-at="2023-10-09T15:41:56 IST" name="quit" finished-at="2023-10-09T15:41:57 IST" duration-ms="304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- Test_Execution.Add_Topic -->
       <class name="Test_Execution.Add_Chapter">
-        <test-method is-config="true" signature="l()[pri:0, instance:Test_Execution.Add_Chapter@3569fc08]" started-at="2023-10-05T10:26:19 IST" name="l" finished-at="2023-10-05T10:26:29 IST" duration-ms="10072" status="PASS">
+        <test-method is-config="true" signature="l()[pri:0, instance:Test_Execution.Add_Chapter@3569fc08]" started-at="2023-10-09T15:40:44 IST" name="l" finished-at="2023-10-09T15:40:51 IST" duration-ms="7704" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- l -->
-        <test-method signature="createChapter()[pri:1, instance:Test_Execution.Add_Chapter@3569fc08]" started-at="2023-10-05T10:26:29 IST" name="createChapter" finished-at="2023-10-05T10:26:32 IST" duration-ms="2956" status="PASS">
+        <test-method signature="createChapter()[pri:1, instance:Test_Execution.Add_Chapter@3569fc08]" started-at="2023-10-09T15:40:51 IST" name="createChapter" finished-at="2023-10-09T15:40:53 IST" duration-ms="1805" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createChapter -->
-        <test-method is-config="true" signature="BugScreen(org.testng.ITestResult)[pri:0, instance:Test_Execution.Add_Chapter@3569fc08]" started-at="2023-10-05T10:26:32 IST" name="BugScreen" finished-at="2023-10-05T10:26:32 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="BugScreen(org.testng.ITestResult)[pri:0, instance:Test_Execution.Add_Chapter@3569fc08]" started-at="2023-10-09T15:40:53 IST" name="BugScreen" finished-at="2023-10-09T15:40:53 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -350,29 +350,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BugScreen -->
-        <test-method signature="addChapter()[pri:2, instance:Test_Execution.Add_Chapter@3569fc08]" started-at="2023-10-05T10:26:32 IST" name="addChapter" finished-at="2023-10-05T10:26:48 IST" duration-ms="16447" status="FAIL">
+        <test-method signature="addChapter()[pri:2, instance:Test_Execution.Add_Chapter@3569fc08]" started-at="2023-10-09T15:40:53 IST" name="addChapter" finished-at="2023-10-09T15:41:07 IST" duration-ms="13695" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class="text-danger"]"}
-  (Session info: chrome=117.0.5938.132)
+  (Session info: chrome=117.0.5938.149)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [85a12ca5e572fbc1db8053d7604f4469, findElement {using=xpath, value=//a[@class="text-danger"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\seshu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65103}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65103/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 85a12ca5e572fbc1db8053d7604f4469]]>
+Command: [84a8ebd87aa7359293d41681992487e2, findElement {using=xpath, value=//a[@class="text-danger"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\seshu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54801}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54801/devtoo..., se:cdpVersion: 117.0.5938.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 84a8ebd87aa7359293d41681992487e2]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class="text-danger"]"}
-  (Session info: chrome=117.0.5938.132)
+  (Session info: chrome=117.0.5938.149)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [85a12ca5e572fbc1db8053d7604f4469, findElement {using=xpath, value=//a[@class="text-danger"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\seshu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65103}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65103/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 85a12ca5e572fbc1db8053d7604f4469
+Command: [84a8ebd87aa7359293d41681992487e2, findElement {using=xpath, value=//a[@class="text-danger"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\seshu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54801}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54801/devtoo..., se:cdpVersion: 117.0.5938.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 84a8ebd87aa7359293d41681992487e2
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -422,7 +422,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addChapter -->
-        <test-method is-config="true" signature="BugScreen(org.testng.ITestResult)[pri:0, instance:Test_Execution.Add_Chapter@3569fc08]" started-at="2023-10-05T10:26:48 IST" name="BugScreen" finished-at="2023-10-05T10:26:48 IST" duration-ms="299" status="PASS">
+        <test-method is-config="true" signature="BugScreen(org.testng.ITestResult)[pri:0, instance:Test_Execution.Add_Chapter@3569fc08]" started-at="2023-10-09T15:41:07 IST" name="BugScreen" finished-at="2023-10-09T15:41:07 IST" duration-ms="150" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -433,7 +433,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BugScreen -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:Test_Execution.Add_Chapter@3569fc08]" started-at="2023-10-05T10:26:48 IST" name="quit" finished-at="2023-10-05T10:26:49 IST" duration-ms="830" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:Test_Execution.Add_Chapter@3569fc08]" started-at="2023-10-09T15:41:07 IST" name="quit" finished-at="2023-10-09T15:41:07 IST" duration-ms="308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

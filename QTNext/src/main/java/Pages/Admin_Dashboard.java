@@ -1,8 +1,6 @@
 package Pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 public class Admin_Dashboard extends Admin_Login
 {
@@ -13,5 +11,5 @@ public class Admin_Dashboard extends Admin_Login
 	public By Create_Topic=By.xpath("//a[text()=\" Create Topic \"]");
 	public By Assessment_Path=By.xpath("//span[text()=\"Assessment Path\"]");
 	public By Create_Assessment=By.xpath("//a[contains(text(),\"Create Assessment\")]");
-
+	public By Settings =By.xpath("//a[@href='/setting/']");
 }
