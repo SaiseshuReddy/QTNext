@@ -3,6 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+	  <class name="Test_Execution.Add_SubjectCategory"/>
+	  <class name="Test_Execution.Add_Subject"/>
+	  <class name="Test_Execution.Add_Specialization"/>
+	  <class name="Test_Execution.Add_Language"/>
       <class name="Test_Execution.Add_Course"/>
       <class name="Test_Execution.Add_Chapter"/>
       <class name="Test_Execution.Add_Lesson"/>

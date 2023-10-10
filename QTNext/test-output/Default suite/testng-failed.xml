@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Test_Execution.Learner">
+      <class name="Test_Execution.Add_QuizQuestions">
         <methods>
-          <include name="activate"/>
+          <include name="addAssessment"/>
+          <include name="quit"/>
+          <include name="BugScreen"/>
           <include name="l"/>
         </methods>
-      </class> <!-- Test_Execution.Learner -->
+      </class> <!-- Test_Execution.Add_QuizQuestions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

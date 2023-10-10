@@ -3,38 +3,14 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Test_Execution.Add_Lesson">
+      <class name="Test_Execution.Add_Specialization">
         <methods>
-          <include name="l"/>
-          <include name="addLesson"/>
-          <include name="quit"/>
-          <include name="BugScreen"/>
-        </methods>
-      </class> <!-- Test_Execution.Add_Lesson -->
-      <class name="Test_Execution.Add_Topic">
-        <methods>
-          <include name="l"/>
-          <include name="quit"/>
-          <include name="addTopic"/>
-          <include name="BugScreen"/>
-        </methods>
-      </class> <!-- Test_Execution.Add_Topic -->
-      <class name="Test_Execution.Add_Chapter">
-        <methods>
-          <include name="BugScreen"/>
-          <include name="addChapter"/>
-          <include name="quit"/>
-          <include name="l"/>
-        </methods>
-      </class> <!-- Test_Execution.Add_Chapter -->
-      <class name="Test_Execution.Add_Course">
-        <methods>
-          <include name="l"/>
-          <include name="quit"/>
           <include name="addCourse"/>
+          <include name="quit"/>
           <include name="BugScreen"/>
+          <include name="l"/>
         </methods>
-      </class> <!-- Test_Execution.Add_Course -->
+      </class> <!-- Test_Execution.Add_Specialization -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

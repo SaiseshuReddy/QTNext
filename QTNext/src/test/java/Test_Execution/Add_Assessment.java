@@ -1,17 +1,14 @@
 package Test_Execution;
-
 import org.openqa.selenium.WebDriver;
 import java.io.IOException;
-
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import Pages.Admin_CreateAssessment;
 
-public class Add_assessment extends Admin_CreateAssessment
+public class Add_Assessment extends Admin_CreateAssessment
 {
 	WebDriver d;
 	@BeforeClass
