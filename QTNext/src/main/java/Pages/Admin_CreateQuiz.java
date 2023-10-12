@@ -27,7 +27,7 @@ public class Admin_CreateQuiz extends Admin_Dashboard
 	public By Activate=By.xpath("//b[@class=\"text-danger\"]");
 		public void add_Quiz(WebDriver d) throws IOException, InterruptedException
 		{
-			File src = new File(".//src//test//resources//Automation Test Sample.xlsx");
+			File src = new File(".//src//test//resources//Learning Path.xlsx");
 			FileInputStream fis=new FileInputStream(src);
 			XSSFWorkbook wb=new XSSFWorkbook(fis);
 			XSSFSheet sheet=wb.getSheet("Create Quiz");

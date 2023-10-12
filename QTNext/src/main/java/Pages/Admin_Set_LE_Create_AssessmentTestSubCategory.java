@@ -21,7 +21,7 @@ public class Admin_Set_LE_Create_AssessmentTestSubCategory extends Admin_Learner
 	public By AssessmentTestSubCategoryActive=By.xpath("//a[@class='text-danger']");
 	public void add_AssessmentTestSubCategory(WebDriver d) throws IOException, InterruptedException
 	{
-		File src = new File(".//src//test//resources//AssessmentAuto.xlsx");
+		File src = new File(".//src//test//resources//Competitive Exam Assessment.xlsx");
 		FileInputStream fis=new FileInputStream(src);
 		XSSFWorkbook wb=new XSSFWorkbook(fis);
 		XSSFSheet sheet=wb.getSheet("AssessmentTestSubCategory");

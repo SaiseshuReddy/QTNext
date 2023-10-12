@@ -21,7 +21,7 @@ public class Admin_Set_Specialization extends Admin_Settings
 	public By Activate=By.xpath("//b[@class=\"text-danger\"]");
 	public void add_Specialization(WebDriver d) throws IOException, InterruptedException
 	{
-		File src = new File(".//src//test//resources//Automation Test Sample.xlsx");
+		File src = new File(".//src//test//resources//Settings.xlsx");
 		FileInputStream fis=new FileInputStream(src);
 		XSSFWorkbook wb=new XSSFWorkbook(fis);
 		XSSFSheet sheet=wb.getSheet("Specialization");

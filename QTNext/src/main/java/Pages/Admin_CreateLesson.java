@@ -31,7 +31,7 @@ public class Admin_CreateLesson extends Admin_Dashboard
 	
 	public void add_Lesson(WebDriver d) throws IOException, InterruptedException
 	{
-		File src = new File(".//src//test//resources//Automation Test Sample.xlsx");
+		File src = new File(".//src//test//resources//Learning Path.xlsx");
 		FileInputStream fis=new FileInputStream(src);
 		XSSFWorkbook wb=new XSSFWorkbook(fis);
 		XSSFSheet sheet=wb.getSheet("Create Lesson");

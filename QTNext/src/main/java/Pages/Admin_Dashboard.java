@@ -13,7 +13,7 @@ public class Admin_Dashboard extends Admin_Login
 	public By Create_Assessment=By.xpath("//a[contains(text(),\"Create Assessment\")]");
 	public By Create_AssessmentQuestions=By.xpath("//a[@href='/create_question/']");
 	public By QuestioningPath=By.xpath("//span[text()='Questioning Path']");
-	public By CreateQuiz=By.xpath("//a[@href='/create_quiz/']");
+	public By Create_Quiz=By.xpath("//a[@href='/create_quiz/']");
 	public By CreateQuizQuestions=By.xpath("//a[@href='/create_quiz_questions/']");
 	public By Settings =By.xpath("//a[@href='/setting/']");
 }

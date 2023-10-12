@@ -11,6 +11,16 @@
       <class name="Test_Execution.Add_Chapter"/>
       <class name="Test_Execution.Add_Lesson"/>
       <class name="Test_Execution.Add_Topic"/>
+      <class name="Test_Execution.Add_Quiz"/>
+      <class name="Test_Execution.Add_QuizQuestions"/>
+      <class name="Test_Execution.Add_AssessmentType"/>
+      <class name="Test_Execution.Add_AssessmentCategory"/>
+      <class name="Test_Execution.Add_AssessmentSubCategory"/>
+      <class name="Test_Execution.Add_AssessmentTestCategory"/>
+      <class name="Test_Execution.Add_AssessmentTestSubCategory"/>
+      <class name="Test_Execution.Add_AssessmentMode"/>
+      <class name="Test_Execution.Add_Assessment"/>
+      <class name="Test_Execution.Add_AssessmentQuestion"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

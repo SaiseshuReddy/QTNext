@@ -17,10 +17,10 @@ public class Admin_Set_SubCat extends Admin_Settings
 	public By Activate=By.xpath("//a[@class=\"text-danger\"]");
 	public void add_SubjectCategory(WebDriver d) throws IOException, InterruptedException
 	{
-		File src = new File(".//src//test//resources//Automation Test Sample.xlsx");
+		File src = new File(".//src//test//resources//Settings.xlsx");
 		FileInputStream fis=new FileInputStream(src);
 		XSSFWorkbook wb=new XSSFWorkbook(fis);
-		XSSFSheet sheet=wb.getSheet("Subject Category");
+		XSSFSheet sheet=wb.getSheet("Subject category ");
 		int rowCount=sheet.getLastRowNum();
 		for (int i=1; i<=rowCount; i++)
 		{

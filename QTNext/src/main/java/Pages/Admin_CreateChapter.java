@@ -30,7 +30,7 @@ public class Admin_CreateChapter extends Admin_Dashboard
 	
 	public void add_Chapter(WebDriver d) throws IOException, InterruptedException
 	{
-		File src = new File(".//src//test//resources//Automation Test Sample.xlsx");
+		File src = new File(".//src//test//resources//Learning Path.xlsx");
 		FileInputStream fis=new FileInputStream(src);
 		XSSFWorkbook wb=new XSSFWorkbook(fis);
 		XSSFSheet sheet=wb.getSheet("Create Chapter");
