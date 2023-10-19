@@ -20,14 +20,14 @@ public class Add_Subject extends Admin_Set_Subject
 		login(d, "qtnext", "qtnext@123");
 	}
 	@Test(priority=1)
-	public void createCourse()
+	public void Subject()
 	{
 		Click(d,Settings);
 		delay(d, Subject, 1);
 		Click(d, Subject);
 	}
 	@Test(priority=2)
-	public void addCourse() throws IOException, InterruptedException
+	public void addSubject() throws IOException, InterruptedException
 	{
 		add_Subject(d);
 	}

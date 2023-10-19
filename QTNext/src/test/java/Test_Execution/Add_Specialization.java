@@ -20,14 +20,14 @@ public class Add_Specialization extends Admin_Set_Specialization
 		login(d, "qtnext", "qtnext@123");
 	}
 	@Test(priority=1)
-	public void createCourse()
+	public void Specialization()
 	{
 		Click(d,Settings);
 		delay(d, SpecializationBtn, 1);
 		Click(d, SpecializationBtn);
 	}
 	@Test(priority=2)
-	public void addCourse() throws IOException, InterruptedException
+	public void addSpecialization() throws IOException, InterruptedException
 	{
 		add_Specialization(d);
 	}

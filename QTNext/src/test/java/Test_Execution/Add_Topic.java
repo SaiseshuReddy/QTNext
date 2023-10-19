@@ -22,7 +22,7 @@ public class Add_Topic extends Admin_CreateTopic
 		login(d, "qtnext", "qtnext@123");
 	}
 	@Test(priority=1)
-	public void createChapter()
+	public void createTopic()
 	{
 		Click(d, Learning_Path);
 		delay(d, Create_Topic, 1);

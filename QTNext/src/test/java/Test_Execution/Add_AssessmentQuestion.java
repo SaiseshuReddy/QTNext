@@ -18,7 +18,7 @@ public class Add_AssessmentQuestion extends Admin_CreateAssessmentQuestions
 		login(d, "qtnext", "qtnext@123");
 	}
 	@Test(priority=1)
-	public void createAssessment()
+	public void createAssessmentQuestions()
 	{
 		Click(d,Assessment_Path);
 		delay(d, Create_AssessmentQuestions, 1);

@@ -22,7 +22,7 @@ public class Admin_Set_LE_Create_AssessmentSubCategory extends Admin_LearnerEval
 	public By AssessmentSubCategoryActive=By.xpath("//a[@class='text-danger']");
 	public void add_AssessmentSubCategory(WebDriver d) throws IOException, InterruptedException
 	{
-		File src = new File(".//src//test//resources//AssessmentAuto.xlsx");
+		File src = new File(".//src//test//resources//Placement Readyness Assessment.xlsx");
 		FileInputStream fis=new FileInputStream(src);
 		XSSFWorkbook wb=new XSSFWorkbook(fis);
 		XSSFSheet sheet=wb.getSheet("AssessmentSubCategory");

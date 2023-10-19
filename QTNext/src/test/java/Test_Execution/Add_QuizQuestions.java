@@ -17,14 +17,14 @@ public class Add_QuizQuestions extends Admin_CreateQuizQuerstions
 		login(d, "qtnext", "qtnext@123");
 	}
 	@Test(priority=1)
-	public void createAssessment()
+	public void createQuizQuestions()
 	{
 		Click(d,QuestioningPath);
 		delay(d, CreateQuizQuestions, 1);
 		Click(d,CreateQuizQuestions);
 	}
 	@Test(priority=2)
-	public void addAssessment() throws IOException, InterruptedException
+	public void addQuizQuestions() throws IOException, InterruptedException
 	{
 		add_QuizQuestions(d);
 	}

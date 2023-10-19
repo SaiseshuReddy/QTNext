@@ -18,7 +18,7 @@ public class Add_AssessmentSubCategory extends Admin_Set_LE_Create_AssessmentSub
 		login(d, "qtnext", "qtnext@123");
 	}
 	@Test(priority=1)
-	public void createCourse()
+	public void createAssessmentSubCat()
 	{
 		Click(d,Settings);
 		delay(d, LearnerEvaluation, 1);
@@ -27,7 +27,7 @@ public class Add_AssessmentSubCategory extends Admin_Set_LE_Create_AssessmentSub
 		Click(d,AssessmentSubCategory);
 	}
 	@Test(priority=2)
-	public void addCourse() throws IOException, InterruptedException
+	public void addAssessmentSubCat() throws IOException, InterruptedException
 	{
 		add_AssessmentSubCategory(d);
 	}

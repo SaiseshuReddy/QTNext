@@ -21,14 +21,14 @@ public class Add_SubjectCategory extends Admin_Set_SubCat
 		login(d, "qtnext", "qtnext@123");
 	}
 	@Test(priority=1)
-	public void createCourse()
+	public void SubjectCategory()
 	{
 		Click(d,Settings);
 		delay(d, SubjectCategory, 1);
 		Click(d, SubjectCategory);
 	}
 	@Test(priority=2)
-	public void addCourse() throws IOException, InterruptedException
+	public void addSubjectCategory() throws IOException, InterruptedException
 	{
 		add_SubjectCategory(d);
 	}

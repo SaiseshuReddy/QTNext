@@ -18,7 +18,7 @@ public class Add_AssessmentType extends Admin_Set_LE_Create_AssessmentType
 		login(d, "qtnext", "qtnext@123");
 	}
 	@Test(priority=1)
-	public void createCourse()
+	public void createAssessmentType()
 	{
 		Click(d,Settings);
 		delay(d, LearnerEvaluation, 1);
@@ -27,7 +27,7 @@ public class Add_AssessmentType extends Admin_Set_LE_Create_AssessmentType
 		Click(d,AssessmentType);
 	}
 	@Test(priority=2)
-	public void addCourse() throws IOException, InterruptedException
+	public void addAssessmentType() throws IOException, InterruptedException
 	{
 		add_Assessmenttype(d);
 	}

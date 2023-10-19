@@ -21,7 +21,7 @@ public class Admin_Set_LE_Create_AssessmentCategory extends Admin_LearnerEvaluat
 	public By AssessmentCategoryActive=By.xpath("//a[@class='text-danger']");
 	public void add_AssessmentCategory(WebDriver d) throws IOException, InterruptedException
 	{
-		File src = new File(".//src//test//resources//AssessmentAuto.xlsx");
+		File src = new File(".//src//test//resources//Placement Readyness Assessment.xlsx");
 		FileInputStream fis=new FileInputStream(src);
 		XSSFWorkbook wb=new XSSFWorkbook(fis);
 		XSSFSheet sheet=wb.getSheet("AssessmentCategory");
@@ -33,8 +33,8 @@ public class Admin_Set_LE_Create_AssessmentCategory extends Admin_LearnerEvaluat
 				Thread.sleep(1000);
 				Select_by_Text(d, AssCatSelectAssessmentType, celldata.getCell(0).getStringCellValue());
 				SendKeys(d, AssessmentCategoryTitle, celldata.getCell(1).getStringCellValue());
-				SendKeys(d, AssessmentCategoryImage, celldata.getCell(2).getStringCellValue());
-				SendKeys(d, AssessmentCategoryShortCode, celldata.getCell(3).getStringCellValue());
+				SendKeys(d, AssessmentCategoryImage, celldata.getCell(3).getStringCellValue());
+				SendKeys(d, AssessmentCategoryShortCode, celldata.getCell(2).getStringCellValue());
 				Click(d,Submit);
 				Click(d,AssessmentCategoryActive);
 		}

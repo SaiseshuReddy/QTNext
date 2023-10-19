@@ -23,12 +23,12 @@ public class Admin_Set_LE_Create_AssessmentMode extends Admin_LearnerEvaluation
 	public By AssessmentModeActive=By.xpath("//a[@class='text-danger']");
 	public void add_AssessmentMode(WebDriver d) throws IOException, InterruptedException
 	{
-		File src = new File(".//src//test//resources//Competitive Exam Assessment.xlsx");
+		File src = new File(".//src//test//resources//Placement Readyness Assessment.xlsx");
 		FileInputStream fis=new FileInputStream(src);
 		XSSFWorkbook wb=new XSSFWorkbook(fis);
 		XSSFSheet sheet=wb.getSheet("AssessmentMode");
 		int rowCount=sheet.getLastRowNum();
-		for (int i=330; i<=rowCount; i++)
+		for (int i=1; i<=rowCount; i++)
 		{
 			XSSFRow celldata=sheet.getRow(i);
 			d.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

@@ -22,7 +22,7 @@ public class Add_Lesson extends Admin_CreateLesson
 		login(d, "qtnext", "qtnext@123");
 	}
 	@Test(priority=1)
-	public void createChapter()
+	public void createLesson()
 	{
 		Click(d, Learning_Path);
 		delay(d, Create_Lesson, 1);

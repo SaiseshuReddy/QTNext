@@ -9,6 +9,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.apache.poi.ss.usermodel.CellType;
 
 public class Admin_CreateAssessment extends Admin_Dashboard
 {
@@ -35,12 +36,12 @@ public class Admin_CreateAssessment extends Admin_Dashboard
 	
 	public void add_Assessment(WebDriver d) throws IOException, InterruptedException
 	{
-		File src = new File(".//src//test//resources//Automation Test Sample.xlsx");
+		File src = new File(".//src//test//resources//Adding Assessents.xlsx");
 		FileInputStream fis=new FileInputStream(src);
 		XSSFWorkbook wb=new XSSFWorkbook(fis);
-		XSSFSheet sheet=wb.getSheet("PRA");
+		XSSFSheet sheet=wb.getSheet("Adding Assessment");
 		int rowCount=sheet.getLastRowNum();
-		for (int i=35; i<=39; i++)
+		for (int i=344; i<=rowCount; i++)
 		{
 			XSSFRow celldata=sheet.getRow(i);
 			double qp=celldata.getCell(6).getNumericCellValue();
@@ -70,18 +71,40 @@ public class Admin_CreateAssessment extends Admin_Dashboard
 				int t_marks2=(int) t_marks1;
 				String t_marks=String.valueOf(t_marks2);
 				SendKeys(d, T_Marks, t_marks);
-				double p_marks1=celldata.getCell(10).getNumericCellValue();
-				int p_marks2=(int) p_marks1;
-				String p_marks=String.valueOf(p_marks2);
-				SendKeys(d, P_Marks, p_marks);
+				if(celldata.getCell(10).getCellType()==CellType.STRING)
+				{
+				SendKeys(d, MP_WA, celldata.getCell(10).getStringCellValue());
+				}
+				else
+				{
+					double p_marks1=celldata.getCell(10).getNumericCellValue();
+					int p_marks2=(int) p_marks1;
+					String p_marks=String.valueOf(p_marks2);
+					SendKeys(d, P_Marks, p_marks);
+				}
+				//double p_marks1=celldata.getCell(10).getNumericCellValue();
+				//int p_marks2=(int) p_marks1;
+				//String p_marks=String.valueOf(p_marks2);
+				//SendKeys(d, P_Marks, p_marks);
 				double mp_ra1=celldata.getCell(11).getNumericCellValue();
 				int mp_ra2=(int) mp_ra1;
 				String mp_ra=String.valueOf(mp_ra2);
 				SendKeys(d, Mp_RA, mp_ra);
-				double mp_wa1=celldata.getCell(12).getNumericCellValue();
-				int mp_wa2=(int) mp_wa1;
-				String mp_wa=String.valueOf(mp_wa2);
-				SendKeys(d, MP_WA, mp_wa);
+				if(celldata.getCell(12).getCellType()==CellType.STRING)
+				{
+				SendKeys(d, MP_WA, celldata.getCell(12).getStringCellValue());
+				}
+				else
+				{
+					double mp_wa1=celldata.getCell(12).getNumericCellValue();
+					//int mp_wa2=(int) mp_wa1;
+					String mp_wa=String.valueOf(mp_wa1);
+					SendKeys(d, MP_WA, mp_wa);
+				}
+				//double mp_wa1=celldata.getCell(12).getNumericCellValue();
+				//int mp_wa2=(int) mp_wa1;
+				//String mp_wa=String.valueOf(mp_wa2);
+				//SendKeys(d, MP_WA, mp_wa);
 				Select_by_Text(d, Paper_Type, celldata.getCell(13).getStringCellValue());
 				Select_by_Text(d, Options_Type, celldata.getCell(14).getStringCellValue());
 				SendKeys(d, Ass_Desc, celldata.getCell(15).getStringCellValue());

@@ -20,14 +20,14 @@ public class Add_Language extends Admin_Set_Languages
 		login(d, "qtnext", "qtnext@123");
 	}
 	@Test(priority=1)
-	public void createCourse()
+	public void Language()
 	{
 		Click(d,Settings);
 		delay(d, Languages, 1);
 		Click(d, Languages);
 	}
 	@Test(priority=2)
-	public void addCourse() throws IOException, InterruptedException
+	public void addLanguage() throws IOException, InterruptedException
 	{
 		add_Language(d);
 	}
