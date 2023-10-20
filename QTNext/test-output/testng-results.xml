@@ -2,50 +2,50 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-18T15:29:55 IST" name="Default suite" finished-at="2023-10-18T15:36:50 IST" duration-ms="415171">
+  <suite started-at="2023-10-21T02:10:45 IST" name="Default suite" finished-at="2023-10-21T02:48:55 IST" duration-ms="2290622">
     <groups>
     </groups>
-    <test started-at="2023-10-18T15:29:55 IST" name="Default test" finished-at="2023-10-18T15:36:50 IST" duration-ms="415171">
-      <class name="Test_Execution.Add_AssessmentMode">
-        <test-method is-config="true" signature="l()[pri:0, instance:Test_Execution.Add_AssessmentMode@4233e892]" started-at="2023-10-18T15:29:55 IST" name="l" finished-at="2023-10-18T15:30:21 IST" duration-ms="25942" status="PASS">
+    <test started-at="2023-10-21T02:10:45 IST" name="Default test" finished-at="2023-10-21T02:48:55 IST" duration-ms="2290622">
+      <class name="Test_Execution.Add_Assessment">
+        <test-method is-config="true" signature="l()[pri:0, instance:Test_Execution.Add_Assessment@7e276594]" started-at="2023-10-21T02:10:45 IST" name="l" finished-at="2023-10-21T02:10:56 IST" duration-ms="11055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- l -->
-        <test-method signature="AssessmentMode()[pri:1, instance:Test_Execution.Add_AssessmentMode@4233e892]" started-at="2023-10-18T15:30:21 IST" name="AssessmentMode" finished-at="2023-10-18T15:30:28 IST" duration-ms="6695" status="PASS">
+        <test-method signature="createAssessment()[pri:1, instance:Test_Execution.Add_Assessment@7e276594]" started-at="2023-10-21T02:10:56 IST" name="createAssessment" finished-at="2023-10-21T02:10:58 IST" duration-ms="2059" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AssessmentMode -->
-        <test-method is-config="true" signature="BugScreen(org.testng.ITestResult)[pri:0, instance:Test_Execution.Add_AssessmentMode@4233e892]" started-at="2023-10-18T15:30:28 IST" name="BugScreen" finished-at="2023-10-18T15:30:28 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- createAssessment -->
+        <test-method is-config="true" signature="BugScreen(org.testng.ITestResult)[pri:0, instance:Test_Execution.Add_Assessment@7e276594]" started-at="2023-10-21T02:10:58 IST" name="BugScreen" finished-at="2023-10-21T02:10:58 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=AssessmentMode status=SUCCESS method=Add_AssessmentMode.AssessmentMode()[pri:1, instance:Test_Execution.Add_AssessmentMode@4233e892] output={null}]]]>
+                <![CDATA[[TestResult name=createAssessment status=SUCCESS method=Add_Assessment.createAssessment()[pri:1, instance:Test_Execution.Add_Assessment@7e276594] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BugScreen -->
-        <test-method signature="addAssessmentMode()[pri:2, instance:Test_Execution.Add_AssessmentMode@4233e892]" started-at="2023-10-18T15:30:28 IST" name="addAssessmentMode" finished-at="2023-10-18T15:36:50 IST" duration-ms="382095" status="PASS">
+        <test-method signature="addAssessment()[pri:2, instance:Test_Execution.Add_Assessment@7e276594]" started-at="2023-10-21T02:10:58 IST" name="addAssessment" finished-at="2023-10-21T02:48:54 IST" duration-ms="2276487" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addAssessmentMode -->
-        <test-method is-config="true" signature="BugScreen(org.testng.ITestResult)[pri:0, instance:Test_Execution.Add_AssessmentMode@4233e892]" started-at="2023-10-18T15:36:50 IST" name="BugScreen" finished-at="2023-10-18T15:36:50 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- addAssessment -->
+        <test-method is-config="true" signature="BugScreen(org.testng.ITestResult)[pri:0, instance:Test_Execution.Add_Assessment@7e276594]" started-at="2023-10-21T02:48:54 IST" name="BugScreen" finished-at="2023-10-21T02:48:54 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addAssessmentMode status=SUCCESS method=Add_AssessmentMode.addAssessmentMode()[pri:2, instance:Test_Execution.Add_AssessmentMode@4233e892] output={null}]]]>
+                <![CDATA[[TestResult name=addAssessment status=SUCCESS method=Add_Assessment.addAssessment()[pri:2, instance:Test_Execution.Add_Assessment@7e276594] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BugScreen -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:Test_Execution.Add_AssessmentMode@4233e892]" started-at="2023-10-18T15:36:50 IST" name="quit" finished-at="2023-10-18T15:36:50 IST" duration-ms="398" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:Test_Execution.Add_Assessment@7e276594]" started-at="2023-10-21T02:48:54 IST" name="quit" finished-at="2023-10-21T02:48:55 IST" duration-ms="983" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-      </class> <!-- Test_Execution.Add_AssessmentMode -->
+      </class> <!-- Test_Execution.Add_Assessment -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

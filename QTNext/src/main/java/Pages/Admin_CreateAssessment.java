@@ -36,12 +36,12 @@ public class Admin_CreateAssessment extends Admin_Dashboard
 	
 	public void add_Assessment(WebDriver d) throws IOException, InterruptedException
 	{
-		File src = new File(".//src//test//resources//Adding Assessents.xlsx");
+		File src = new File(".//src//test//resources//Adding PRA Assessments.xlsx");
 		FileInputStream fis=new FileInputStream(src);
 		XSSFWorkbook wb=new XSSFWorkbook(fis);
 		XSSFSheet sheet=wb.getSheet("Adding Assessment");
 		int rowCount=sheet.getLastRowNum();
-		for (int i=344; i<=rowCount; i++)
+		for (int i=1; i<=rowCount; i++)
 		{
 			XSSFRow celldata=sheet.getRow(i);
 			double qp=celldata.getCell(6).getNumericCellValue();

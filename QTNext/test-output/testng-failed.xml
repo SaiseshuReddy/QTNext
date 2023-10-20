@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Test_Execution.Add_AssessmentMode">
+      <class name="Test_Execution.Add_Assessment">
         <methods>
           <include name="l"/>
-          <include name="BugScreen"/>
           <include name="quit"/>
-          <include name="addAssessmentMode"/>
+          <include name="addAssessment"/>
+          <include name="BugScreen"/>
         </methods>
-      </class> <!-- Test_Execution.Add_AssessmentMode -->
+      </class> <!-- Test_Execution.Add_Assessment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
